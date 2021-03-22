@@ -1,0 +1,32 @@
+# Maintainer: Sainnhe Park <sainnhe@gmail.com>
+pkgname=neovim-meta
+pkgdesc='Meta package to install some components for neovim'
+pkgver=2021.02.21
+pkgrel=1
+arch=(any)
+url='https://github.com/sainnhe/repo'
+provides=("${pkgname}")
+conflicts=("${pkgname}")
+depends=(neovim
+         nodejs
+         npm
+         yarn
+         python
+         python-pynvim
+         python-pip
+         words
+         clang
+         tidy
+         shellcheck
+         shfmt
+         yapf
+         zenity
+         ruby-neovim
+         global
+         universal-ctags-git
+         julia
+         julia-docs)
+
+pkgver() {
+    date --utc +"%Y.%m.%d"
+}

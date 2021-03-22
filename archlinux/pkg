@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+
+# Usage:
+# ./pkg add <pkgname>       # add a package
+# ./pkg add <pkgname> -f    # add a package and force clean databases
+
+key='2DEB7D2822371B889AC16E1716F249ED243F596E'
+root_dir="$(git rev-parse --show-toplevel)/archlinux"
+arch="$(uname -m)"
+ext='pkg.tar.zst'
+
+if [ "${1}" == 'add' ]; then
+  cd ${root_dir}/src/${2}
+  makepkg --config "${root_dir}/makepkg.${arch}.conf" --sign --syncdeps --rmdeps
+  mv *${ext}* ${root_dir}/${arch}/
+  git clean -dfx -- .
+  rm -rf src
+  cd ${root_dir}/${arch}
+  if [ -z "${3}" ]; then
+    repo-add --verify --sign --key ${key} sainnhe.db.tar.gz *${2}*${ext}
+    rm sainnhe*old*
+  else
+    rm sainnhe*
+    repo-add --verify --sign --key ${key} sainnhe.db.tar.gz *${ext}
+  fi
+elif [ "${1}" == 'update' ]; then
+  cd ${root_dir}/src/${2}
+  makepkg --config "${root_dir}/makepkg.${arch}.conf" --sign --syncdeps --rmdeps
+  rm ${root_dir}/${arch}/*${2}*
+  mv *${ext}* ${root_dir}/${arch}/
+  git clean -dfx -- .
+  rm -rf src
+  cd ${root_dir}/${arch}
+  if [ -z "${3}" ]; then
+    repo-remove --verify --sign --key ${key} sainnhe.db.tar.gz ${2}
+    repo-add --verify --sign --key ${key} sainnhe.db.tar.gz *${2}*${ext}
+    rm sainnhe*old*
+  else
+    rm sainnhe*
+    repo-add --verify --sign --key ${key} sainnhe.db.tar.gz *${ext}
+  fi
+fi
+
+BBLUE='\033[1;34m'
+NC='\033[0m' # No Color
+printf "\n\n${BBLUE}==> Remember to update package list in README.${NC}\n"
+printf "${BBLUE}==> Remember to check if old package files have been deleted.${NC}\n"

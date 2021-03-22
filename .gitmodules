@@ -1,0 +1,9 @@
+[submodule "archlinux/src/ttf-ms-win10"]
+	path = archlinux/src/ttf-ms-win10
+	url = https://aur.archlinux.org/ttf-ms-win10.git
+[submodule "archlinux/src/fakeroot-tcp"]
+	path = archlinux/src/fakeroot-tcp
+	url = https://aur.archlinux.org/fakeroot-tcp.git
+[submodule "archlinux/src/nosudo"]
+	path = archlinux/src/nosudo
+	url = https://aur.archlinux.org/nosudo.git
