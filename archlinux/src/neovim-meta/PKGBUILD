@@ -24,7 +24,9 @@ depends=(neovim
          global
          universal-ctags-git
          julia
-         julia-docs)
+         julia-docs
+         jre-openjdk
+         java-environment-common)
 
 pkgver() {
     date --utc +"%Y.%m.%d"
