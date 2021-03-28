@@ -24,7 +24,6 @@ depends=(neovim
          global
          universal-ctags-git
          julia
-         julia-docs
          jre-openjdk
          java-environment-common)
 
