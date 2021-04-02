@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2021.02.21
+pkgver=2021.04.02
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -26,6 +26,7 @@ depends=(firefox-developer-edition
          persepolis
          code
          code-marketplace
+         ao
          typora
          bleachbit
          zeal-git
