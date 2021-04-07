@@ -1,14 +1,19 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2021.04.06
+pkgver=2021.04.07
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
 provides=("${pkgname}")
 conflicts=("${pkgname}")
 install="${pkgname}.install"
-depends=(firefox-developer-edition
+source=("${pkgname}.hook"
+        'patch.sh')
+md5sums=('b8467d34242b7f4cdcadaaecc4c8e073'
+         'dbb3247e039f1bfad2b6b0212fd9da9e')
+depends=(apps-common-meta
+         firefox-developer-edition
          microsoft-edge-dev-bin
          alacritty
          telegram-desktop
@@ -55,4 +60,9 @@ depends=(firefox-developer-edition
 
 pkgver() {
     date --utc +"%Y.%m.%d"
+}
+
+package() {
+    install -Dm 644 "${srcdir}/${pkgname}.hook" "${pkgdir}/usr/share/libalpm/hooks/${pkgname}.hook"
+    install -Dm 755 "${srcdir}/patch.sh" "${pkgdir}/usr/share/${pkgname}/patch.sh"
 }
