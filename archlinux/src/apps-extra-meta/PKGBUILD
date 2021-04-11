@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2021.04.07
+pkgver=2021.04.11
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -10,7 +10,7 @@ conflicts=("${pkgname}")
 install="${pkgname}.install"
 source=("${pkgname}.hook"
         'patch.sh')
-md5sums=('b8467d34242b7f4cdcadaaecc4c8e073'
+md5sums=('92d6442bdcd88f188f9934f893ee581c'
          'dbb3247e039f1bfad2b6b0212fd9da9e')
 depends=(apps-common-meta
          firefox-developer-edition

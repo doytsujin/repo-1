@@ -2,8 +2,8 @@
 Operation = Install
 Operation = Upgrade
 Type = Path
-Target = /usr/share/applications/firefox-developer-edition.desktop
-Target = /usr/share/applications/Alacritty.desktop
+Target = usr/share/applications/firefox-developer-edition.desktop
+Target = usr/share/applications/Alacritty.desktop
 
 [Action]
 Description = [apps-extra-meta] Patching icons...
