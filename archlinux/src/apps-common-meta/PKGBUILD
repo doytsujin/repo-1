@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
-pkgver=2021.02.21
+pkgver=2021.04.15
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -17,6 +17,7 @@ depends=(pacman-contrib
          mosh
          w3m
          aria2
+         cmake
          fzf
          zip
          unzip
