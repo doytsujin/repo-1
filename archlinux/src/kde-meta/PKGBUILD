@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=kde-meta
 pkgdesc='Meta package to install some components for KDE Plasma'
-pkgver=2021.02.21
+pkgver=2021.05.16
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -79,7 +79,7 @@ depends=(plasma-meta
          kvantum-qt5
          qtcurve-kde
          plasma5-applets-active-window-control
-         latte-dock-git
+         latte-dock
          plasma5-applets-virtual-desktop-bar-git
          plasma5-applets-window-title
          plasma5-applets-latte-separator
