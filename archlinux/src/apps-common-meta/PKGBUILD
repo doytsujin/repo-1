@@ -23,7 +23,6 @@ depends=(pacman-contrib
          unzip
          lsd
          svn
-         glow
          nodejs-commitizen
          nodejs-cz-conventional-changelog
          tcping
