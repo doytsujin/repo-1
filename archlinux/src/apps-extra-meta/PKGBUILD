@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2021.04.11
+pkgver=2021.06.15
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -55,6 +55,7 @@ depends=(apps-common-meta
          wps-office-fonts
          deepin-wine-tim
          deepin-wine-wechat
+         deepin-wine5
          xsettingsd
          lib32-freetype2-infinality-ultimate)
 
