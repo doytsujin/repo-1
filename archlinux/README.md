@@ -97,5 +97,4 @@ pacman -Sy
 | `ttf-roboto-mono-icursive-pt`      | x86_64          | Roboto Mono + Petit Formal Script                           |
 | `ttf-source-code-pro-icursive-op`  | x86_64          | Source Code Pro + Operator Mono                             |
 | `ttf-source-code-pro-icursive-s12` | x86_64          | Source Code Pro + Script12 BT                               |
-| `vim-meta`                         | x86_64          | Meta package to install some components for vim             |
 | `window-manager-meta`              | x86_64          | Meta package to install some components for window managers |
