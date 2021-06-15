@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
-pkgver=2021.04.15
+pkgver=2021.06.15
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -23,8 +23,7 @@ depends=(pacman-contrib
          unzip
          lsd
          svn
-         python-mdv-git
-         python2-pygments
+         glow
          nodejs-commitizen
          nodejs-cz-conventional-changelog
          tcping
