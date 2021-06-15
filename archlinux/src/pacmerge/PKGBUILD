@@ -1,16 +1,16 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=pacmerge
-pkgver=2021.02.23
+pkgver=2021.06.15
 pkgrel=1
 pkgdesc="Merge .pacnew files"
 arch=(any)
 url="https://github.com/sainnhe/repo"
 license=('unknown')
-depends=('vim' 'vim-edge-git')
+depends=('neovim')
 provides=('pacmerge')
 conflicts=('pacmerge')
 source=('pacmerge')
-md5sums=('8ea7b0bd6a88dc0bb6bbac8fd98ddd61')
+md5sums=('3bbc9174e877ec706a290ecc581d80ce')
 
 pkgver() {
     date --utc +"%Y.%m.%d"
