@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=neovim-meta
 pkgdesc='Meta package to install some components for neovim'
-pkgver=2021.03.28
+pkgver=2021.06.16
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -18,7 +18,6 @@ depends=(neovim
          clang
          shellcheck
          shfmt
-         yapf
          zenity
          ruby-neovim
          global
