@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=kde-meta
 pkgdesc='Meta package to install some components for KDE Plasma'
-pkgver=2021.06.17
+pkgver=2021.06.20
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -32,6 +32,7 @@ depends=(plasma-meta
          kwin-scripts-forceblur
          cdrtools
          dvgrab
+         firewalld
          geoip
          gpsd
          kdewebkit
