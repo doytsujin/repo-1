@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2021.06.15
+pkgver=2021.06.22
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -35,7 +35,6 @@ depends=(apps-common-meta
          gnome-keyring
          libsecret
          seahorse
-         ao
          typora
          bleachbit
          zeal-git
