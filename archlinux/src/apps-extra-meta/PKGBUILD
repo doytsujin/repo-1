@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2021.06.22
+pkgver=2021.06.25
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -29,11 +29,11 @@ depends=(apps-common-meta
          qv2ray-plugin-trojan-dev-git
          fontweak
          persepolis
+         octave
          code
          code-marketplace
          code-icons
          gnome-keyring
-         libsecret
          seahorse
          typora
          bleachbit
