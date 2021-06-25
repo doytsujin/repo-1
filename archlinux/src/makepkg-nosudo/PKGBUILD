@@ -11,7 +11,7 @@ install="${pkgname}.install"
 source=("${pkgname}.hook"
         'makepkg.diff')
 md5sums=('b3eade72b345947a68edf45f073c93d9'
-         '92e384b698be83e3ed9aefdaddb5ea3d')
+         '6da5e07673cf186060e49b63ce9e34ee')
 
 package() {
   install -Dm 644 "${srcdir}/${pkgname}.hook" "${pkgdir}/usr/share/libalpm/hooks/${pkgname}.hook"
