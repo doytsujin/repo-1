@@ -1,0 +1,32 @@
+# Maintainer: Sainnhe Park <sainnhe@gmail.com>
+pkgname=julia-bin
+pkgver=1.6.1
+pkgrel=1
+arch=('x86_64' 'aarch64')
+pkgdesc='High-level, high-performance, dynamic programming language - official binaries'
+provides=(julia)
+conflicts=(julia)
+url='https://julialang.org/'
+license=('MIT')
+options=(!strip)
+depends=("cblas" "fftw" "hicolor-icon-theme" "libgit2" "libunwind" "libutf8proc" "openblas" "suitesparse" "mbedtls" "openlibm" "pcre2" "llvm-libs" "p7zip")
+optdepends=('gnuplot: If using the Gaston Package from julia')
+
+case "$CARCH" in
+  aarch64) _pkgarch="aarch64"
+    sha256sums=('SKIP')
+    source=("https://julialang-s3.julialang.org/bin/linux/${_pkgarch}/${pkgver:0:3}/julia-${pkgver}-linux-${_pkgarch}.tar.gz")
+    ;;
+  x86_64) _pkgarch="x64"
+    sha256sums=('SKIP')
+    source=("https://julialang-s3.julialang.org/bin/linux/${_pkgarch}/${pkgver:0:3}/julia-${pkgver}-linux-x86_64.tar.gz")
+    ;;
+esac
+
+package() {
+  mkdir -p ${pkgdir}/usr/share/licenses/julia
+  cp -r julia-${pkgver}/{bin,etc,include,lib,share,libexec} ${pkgdir}/usr/
+  install -Dm644 julia-${pkgver}/LICENSE.md ${pkgdir}/usr/share/licenses/julia/LICENSE.md
+}
+
+# vim: ts=2 sw=2 et:
