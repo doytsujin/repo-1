@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2021.06.25
+pkgver=2021.08.05
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -14,7 +14,7 @@ md5sums=('92d6442bdcd88f188f9934f893ee581c'
          'dbb3247e039f1bfad2b6b0212fd9da9e')
 depends=(apps-common-meta
          firefox-developer-edition
-         microsoft-edge-dev-bin
+         ungoogled-chromium
          alacritty
          telegram-desktop
          zathura
