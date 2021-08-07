@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=neovim-meta
 pkgdesc='Meta package to install some components for neovim'
-pkgver=2021.06.25
+pkgver=2021.08.07
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -23,6 +23,7 @@ depends=(neovim
          global
          uctags-git
          ctags
+         cmake-language-server
          julia
          jre-openjdk
          java-environment-common)
