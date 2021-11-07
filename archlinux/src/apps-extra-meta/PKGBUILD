@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2021.08.05
+pkgver=2021.11.07
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -38,6 +38,9 @@ depends=(apps-common-meta
          typora
          bleachbit
          zeal-git
+         qt6-base
+         qt6-doc
+         qtcreator
          fcitx
          fcitx-configtool
          fcitx-libpinyin
