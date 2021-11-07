@@ -44,7 +44,8 @@ depends=(plasma-meta
          recordmydesktop
          sshfs
          systemdgenie
-         cryfs)
+         cryfs
+         python-pyqt5)
 
 pkgver() {
     date --utc +"%Y.%m.%d"
