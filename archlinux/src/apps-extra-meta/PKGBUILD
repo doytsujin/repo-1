@@ -28,7 +28,6 @@ depends=(apps-common-meta
          qv2ray-plugin-ssr-dev-git
          qv2ray-plugin-trojan-dev-git
          fontweak
-         persepolis
          octave
          code
          code-marketplace
