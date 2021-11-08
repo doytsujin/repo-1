@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=kde-meta
 pkgdesc='Meta package to install some components for KDE Plasma'
-pkgver=2021.11.07
+pkgver=2021.11.08
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -45,7 +45,10 @@ depends=(plasma-meta
          sshfs
          systemdgenie
          cryfs
-         python-pyqt5)
+         python-pyqt5
+         bluez-utils
+         pulseaudio-bluetooth
+         pulseaudio-alsa)
 
 pkgver() {
     date --utc +"%Y.%m.%d"
