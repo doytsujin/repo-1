@@ -59,7 +59,8 @@ depends=(apps-common-meta
          xsettingsd
          lib32-freetype2-infinality-ultimate
          netease-cloud-music
-         apple-music-electron)
+         apple-music-electron
+         onedriver)
 
 pkgver() {
     date --utc +"%Y.%m.%d"
