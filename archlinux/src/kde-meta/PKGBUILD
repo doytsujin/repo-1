@@ -27,6 +27,7 @@ depends=(plasma-meta
          plasma5-applets-latte-separator
          plasma5-applets-window-buttons
          plasma5-applets-betterinlineclock-git
+         plasma5-wallpapers-dynamic
          gestures
          xdotool
          kwin-scripts-forceblur
