@@ -57,7 +57,9 @@ depends=(apps-common-meta
          deepin-wine-wechat
          deepin-wine5
          xsettingsd
-         lib32-freetype2-infinality-ultimate)
+         lib32-freetype2-infinality-ultimate
+         netease-cloud-music
+         apple-music-electron)
 
 pkgver() {
     date --utc +"%Y.%m.%d"
