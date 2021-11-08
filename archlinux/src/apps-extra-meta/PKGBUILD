@@ -39,9 +39,9 @@ depends=(apps-common-meta
          typora
          bleachbit
          zeal-git
-         qt6-base
-         qt6-doc
-         qt6-examples
+         qt5-base
+         qt5-doc
+         qt5-examples
          qtcreator
          fcitx
          fcitx-configtool
