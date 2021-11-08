@@ -41,6 +41,7 @@ depends=(apps-common-meta
          zeal-git
          qt6-base
          qt6-doc
+         qt6-examples
          qtcreator
          fcitx
          fcitx-configtool
