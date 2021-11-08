@@ -29,6 +29,7 @@ depends=(apps-common-meta
          qv2ray-plugin-trojan-dev-git
          fontweak
          octave
+         gimp
          code
          code-marketplace
          code-icons
