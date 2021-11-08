@@ -32,6 +32,7 @@ depends=(apps-common-meta
          gimp
          code
          code-marketplace
+         code-features
          code-icons
          gnome-keyring
          seahorse
