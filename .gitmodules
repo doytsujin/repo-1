@@ -7,6 +7,3 @@
 [submodule "archlinux/src/nosudo"]
 	path = archlinux/src/nosudo
 	url = https://aur.archlinux.org/nosudo.git
-[submodule "archlinux/src/makepkg-nosudo"]
-	path = archlinux/src/makepkg-nosudo
-	url = https://aur.archlinux.org/makepkg-nosudo.git
