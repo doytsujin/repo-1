@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
-pkgver=2021.07.10
+pkgver=2021.11.09
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -13,6 +13,7 @@ depends=(pacman-contrib
          iwd
          blueman
          net-tools
+         gnu-netcat
          bash-completion
          mosh
          w3m
