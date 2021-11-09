@@ -13,7 +13,7 @@ depends=(pacman-contrib
          iwd
          blueman
          net-tools
-         gnu-netcat
+         socat
          bash-completion
          mosh
          w3m
