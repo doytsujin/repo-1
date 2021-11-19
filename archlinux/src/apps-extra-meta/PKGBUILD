@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2021.11.11
+pkgver=2021.11.19
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -30,6 +30,7 @@ depends=(apps-common-meta
          fontweak
          octave
          gimp
+         inkscape
          code
          code-marketplace
          code-features
