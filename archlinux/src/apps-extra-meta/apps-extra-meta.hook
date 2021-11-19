@@ -4,8 +4,9 @@ Operation = Upgrade
 Type = Path
 Target = usr/share/applications/firefox-developer-edition.desktop
 Target = usr/share/applications/Alacritty.desktop
+Target = usr/share/applications/com.qq.office.deepin.desktop
 
 [Action]
-Description = [apps-extra-meta] Patching icons...
+Description = [apps-extra-meta] Patching desktop files...
 Exec = /usr/share/apps-extra-meta/patch.sh
 When = PostTransaction
