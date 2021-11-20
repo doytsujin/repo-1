@@ -53,6 +53,7 @@ pacman -Sy
 | ---------------------------------- | --------------- | -------------------------------------------------------------------- |
 | `apps-common-meta`                 | x86_64          | Meta package to install some common apps                             |
 | `apps-extra-meta`                  | x86_64          | Meta package to install some extra apps                              |
+| `caj2pdf-qt`                       | x86_64          | CAJ 转 PDF 转换器（GUI 版本）                                        |
 | `dwm-git`                          | x86_64          | Personal build of the dynamic window manager                         |
 | `dwm-meta`                         | x86_64          | Meta package to install some components for dwm                      |
 | `fakeroot-tcp`                     | aarch64, x86_64 | Tool for simulating superuser privileges,with tcp ipc                |
