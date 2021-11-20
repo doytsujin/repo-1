@@ -65,7 +65,8 @@ depends=(apps-common-meta
          lib32-freetype2-infinality-ultimate
          netease-cloud-music
          apple-music-electron
-         onedriver)
+         onedriver
+         caj2pdf-qt)
 
 pkgver() {
     date --utc +"%Y.%m.%d"
