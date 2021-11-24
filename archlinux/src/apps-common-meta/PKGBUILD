@@ -30,6 +30,7 @@ depends=(pacman-contrib
          neofetch
          onefetch
          sysbench
+         geekbench
          ytop
          htop
          nmon

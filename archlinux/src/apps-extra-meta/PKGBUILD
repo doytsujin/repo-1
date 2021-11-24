@@ -66,8 +66,7 @@ depends=(apps-common-meta
          netease-cloud-music
          apple-music-electron
          onedriver
-         caj2pdf-qt
-         geekbench)
+         caj2pdf-qt)
 
 pkgver() {
     date --utc +"%Y.%m.%d"
