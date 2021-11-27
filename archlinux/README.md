@@ -67,7 +67,6 @@ pacman -Sy
 | `pacmerge`                         | aarch64, x86_64 | Merge .pacnew files                                                  |
 | `palette-git`                      | aarch64, x86_64 | Print color palette                                                  |
 | `pylance-language-server`          | x86_64          | Python language server based on pylance vscode extension             |
-| `themes-meta`                      | x86_64          | Meta package to install some themes                                  |
 | `ttf-cartograph-mono`              | x86_64          | Cartograph Mono True Type Font                                       |
 | `ttf-cascadia-code-icursive-cg`    | x86_64          | Cascadia Code + Cartograph                                           |
 | `ttf-cascadia-code-icursive-dk`    | x86_64          | Cascadia Code + Dank Mono                                            |
