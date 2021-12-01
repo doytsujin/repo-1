@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2021.11.29
+pkgver=2021.12.01
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -65,7 +65,8 @@ depends=(apps-common-meta
          netease-cloud-music
          apple-music-electron
          onedriver
-         caj2pdf-qt)
+         caj2pdf-qt
+         qemu)
 
 pkgver() {
     date --utc +"%Y.%m.%d"
