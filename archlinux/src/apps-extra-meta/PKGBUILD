@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2021.12.01
+pkgver=2021.12.23
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -23,10 +23,7 @@ depends=(apps-common-meta
          zathura-ps
          zathura-cb
          v2ray
-         qv2ray-dev-git
-         qv2ray-plugin-command-dev-git
-         qv2ray-plugin-ssr-dev-git
-         qv2ray-plugin-trojan-dev-git
+         across
          fontweak
          octave
          gimp
