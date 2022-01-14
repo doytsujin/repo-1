@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2021.12.23
+pkgver=2022.01.14
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -35,7 +35,6 @@ depends=(apps-common-meta
          gnome-keyring
          seahorse
          bleachbit
-         zeal-git
          qt5-base
          qt5-doc
          qt5-examples
