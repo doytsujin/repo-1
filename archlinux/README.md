@@ -54,8 +54,6 @@ pacman -Sy
 | `apps-common-meta`                 | x86_64          | Meta package to install some common apps                             |
 | `apps-extra-meta`                  | x86_64          | Meta package to install some extra apps                              |
 | `caj2pdf-qt`                       | x86_64          | CAJ 转 PDF 转换器（GUI 版本）                                        |
-| `dwm-git`                          | x86_64          | Personal build of the dynamic window manager                         |
-| `dwm-meta`                         | x86_64          | Meta package to install some components for dwm                      |
 | `fakeroot-tcp`                     | aarch64, x86_64 | Tool for simulating superuser privileges,with tcp ipc                |
 | `fonts-meta`                       | x86_64          | Meta package to install some fonts                                   |
 | `kde-meta`                         | x86_64          | Meta package to install some components for KDE Plasma               |
@@ -99,4 +97,3 @@ pacman -Sy
 | `ttf-roboto-mono-icursive-pt`      | x86_64          | Roboto Mono + Petit Formal Script                                    |
 | `ttf-source-code-pro-icursive-op`  | x86_64          | Source Code Pro + Operator Mono                                      |
 | `ttf-source-code-pro-icursive-s12` | x86_64          | Source Code Pro + Script12 BT                                        |
-| `window-manager-meta`              | x86_64          | Meta package to install some components for window managers          |
