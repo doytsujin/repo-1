@@ -17,14 +17,7 @@ depends=(plasma-meta
          kde-sdk-meta
          kde-system-meta
          kde-utilities-meta
-         kvantum-qt5
-         qtcurve-kde
-         qtcurve-utils
-         lightly-qt
-         gestures
-         xdotool
-         kwin-scripts-forceblur
-         cdrtools
+         # Opt Depends
          dvgrab
          firewalld
          geoip
@@ -42,7 +35,15 @@ depends=(plasma-meta
          python-pyqt5
          bluez-utils
          pulseaudio-bluetooth
-         pulseaudio-alsa)
+         pulseaudio-alsa
+         # More
+         kvantum-qt5
+         qtcurve-kde
+         qtcurve-utils
+         lightly-qt
+         kwin-scripts-forceblur
+         gestures
+         xdotool)
 
 pkgver() {
     date --utc +"%Y.%m.%d"

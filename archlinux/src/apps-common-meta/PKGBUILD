@@ -9,52 +9,48 @@ provides=("${pkgname}")
 conflicts=("${pkgname}")
 install="${pkgname}.install"
 depends=(pacman-contrib
-         iw
-         iwd
-         blueman
+         # Network
+         tcping
          net-tools
          socat
-         bash-completion
          mosh
          w3m
-         weechat
+         wget
          aria2
-         cmake
+         weechat
+         # Shell Utils
+         wikiman
+         arch-wiki-docs
+         arch-wiki-lite
+         man-pages-zh_cn
+         lua
          fzf
          zip
          unzip
          unrar
          lsd
-         svn
-         tcping
-         hyperfine
+         dust
+         ripgrep
+         ripgrep-all
+         bingrep-rs
          fd
+         # Development
+         git
+         svn
+         cmake
+         pkgfile
+         go
+         # System
+         hyperfine
          neofetch
          onefetch
          sysbench
          geekbench
          bottom
-         nmon
-         ripgrep
-         ripgrep-all
-         bingrep-rs
+         # Others
+         cmatrix
          xclip
-         pkgfile
-         dust
-         go
-         lua
          nnn
-         ranger
-         lynx
-         atool
-         ffmpegthumbnailer
-         highlight
-         odt2txt
-         perl-image-exiftool
-         arch-wiki-docs
-         arch-wiki-lite
-         man-pages-zh_cn
-         wikiman
          palette-git
          pacman-hooks
          pacmerge)

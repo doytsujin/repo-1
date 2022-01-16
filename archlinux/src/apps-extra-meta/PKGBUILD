@@ -16,24 +16,32 @@ depends=(apps-common-meta
          firefox-developer-edition
          ungoogled-chromium
          telegram-desktop
-         zathura
-         zathura-djvu
-         zathura-pdf-mupdf
-         zathura-ps
-         zathura-cb
          v2ray
          across
          fontweak
          octave
          gimp
          inkscape
+         bleachbit
+         netease-cloud-music
+         apple-music-electron
+         onedriver
+         caj2pdf-qt
+         qemu
+         # Zathura
+         zathura
+         zathura-djvu
+         zathura-pdf-mupdf
+         zathura-ps
+         zathura-cb
+         # Code OSS
          code
          code-marketplace
          code-features
          code-icons
          gnome-keyring
          seahorse
-         bleachbit
+         # Qt
          qt5-base
          qt5-doc
          qt5-examples
@@ -41,6 +49,7 @@ depends=(apps-common-meta
          qt6-charts
          qt6-5compat
          qtcreator
+         # Fcitx
          fcitx
          fcitx-configtool
          fcitx-libpinyin
@@ -50,18 +59,15 @@ depends=(apps-common-meta
          kcm-fcitx
          fcitx-skins
          fcitx-skin-material
+         # Libre Office
          libreoffice-still
          libreoffice-still-zh-cn
+         # Deepin Wine
          deepin-wine-tim
          deepin-wine-wechat
          deepin-wine5
          xsettingsd
-         lib32-freetype2-infinality-ultimate
-         netease-cloud-music
-         apple-music-electron
-         onedriver
-         caj2pdf-qt
-         qemu)
+         lib32-freetype2-infinality-ultimate)
 
 pkgver() {
     date --utc +"%Y.%m.%d"
