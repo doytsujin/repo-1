@@ -15,6 +15,7 @@ depends=(pacman-contrib
          tcping
          socat
          mosh
+         nmap
          w3m
          wget
          aria2
