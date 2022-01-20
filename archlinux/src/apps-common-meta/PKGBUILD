@@ -50,7 +50,7 @@ depends=(pacman-contrib
          geekbench
          bottom
          # Others
-         toilet
+         figlet
          cmatrix
          xclip
          nnn
