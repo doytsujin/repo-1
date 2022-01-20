@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
-pkgver=2022.01.16
+pkgver=2022.01.20
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -10,8 +10,9 @@ conflicts=("${pkgname}")
 install="${pkgname}.install"
 depends=(pacman-contrib
          # Network
-         tcping
          net-tools
+         inetutils
+         tcping
          socat
          mosh
          w3m
