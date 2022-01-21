@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
-pkgver=2022.01.20
+pkgver=2022.01.21
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -37,6 +37,8 @@ depends=(pacman-contrib
          bingrep-rs
          fd
          # Development
+         python
+         python-pip
          git
          svn
          cmake
