@@ -7,7 +7,10 @@ arch=(any)
 url='https://github.com/sainnhe/repo'
 provides=("${pkgname}")
 conflicts=("${pkgname}")
-depends=(adobe-source-han-sans-cn-fonts
+depends=(adobe-source-sans-fonts
+         adobe-source-serif-fonts
+         adobe-source-code-pro-fonts
+         adobe-source-han-sans-cn-fonts
          adobe-source-han-serif-cn-fonts
          adobe-source-han-mono-cn-fonts
          noto-fonts
