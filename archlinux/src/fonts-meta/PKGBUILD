@@ -7,13 +7,13 @@ arch=(any)
 url='https://github.com/sainnhe/repo'
 provides=("${pkgname}")
 conflicts=("${pkgname}")
-depends=(ttf-ms-win10
-         ttf-ms-win10-zh_cn
-         wqy-microhei
-         wqy-zenhei
-         ttf-sarasa-gothic
+depends=(adobe-source-han-sans-cn-fonts
+         adobe-source-han-serif-cn-fonts
+         adobe-source-han-mono-cn-fonts
          noto-fonts
-         ttf-symbola
+         noto-fonts-emoji
+         ttf-ms-win10
+         ttf-ms-win10-zh_cn
          nerd-fonts-fira-code
          nerd-fonts-code-new-roman
          nerd-fonts-agave
