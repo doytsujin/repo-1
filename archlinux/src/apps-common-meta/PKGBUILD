@@ -13,6 +13,7 @@ depends=(pacman-contrib
          net-tools
          inetutils
          tcping
+         traceroute
          socat
          mosh
          nmap
@@ -38,6 +39,7 @@ depends=(pacman-contrib
          ripgrep-all
          bingrep-rs
          fd
+         tealdeer
          # Development
          python
          python-pip
