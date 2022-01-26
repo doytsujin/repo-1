@@ -22,6 +22,7 @@ depends=(pacman-contrib
          weechat
          # Shell Utils
          vi
+         awk
          wikiman
          arch-wiki-docs
          arch-wiki-lite
