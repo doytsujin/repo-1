@@ -36,8 +36,13 @@ depends=(plasma-meta
          bluez-utils
          pulseaudio-bluetooth
          pulseaudio-alsa
-         # More
+         # Grub themes
+         grub2-theme-preview
+         grub-theme-poly-dark-git
+         grub-theme-poly-light-git
+         grub2-theme-breeze-git
          sekiro-grub-theme-git
+         # More
          kvantum-qt5
          qtcurve-kde
          qtcurve-utils
