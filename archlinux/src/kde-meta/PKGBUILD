@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=kde-meta
 pkgdesc='Meta package to install some components for KDE Plasma'
-pkgver=2022.01.16
+pkgver=2022.01.27
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -37,6 +37,7 @@ depends=(plasma-meta
          pulseaudio-bluetooth
          pulseaudio-alsa
          # More
+         sekiro-grub-theme-git
          kvantum-qt5
          qtcurve-kde
          qtcurve-utils
