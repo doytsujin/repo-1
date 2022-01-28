@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
-pkgver=2022.01.26
+pkgver=2022.01.28
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -24,6 +24,7 @@ depends=(pacman-contrib
          # Shell Utils
          vi
          awk
+         gptfdisk
          wikiman
          arch-wiki-docs
          arch-wiki-lite
