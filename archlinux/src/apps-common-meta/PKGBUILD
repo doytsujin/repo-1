@@ -25,6 +25,7 @@ depends=(pacman-contrib
          vi
          awk
          gptfdisk
+         parted
          wikiman
          arch-wiki-docs
          arch-wiki-lite
