@@ -50,6 +50,7 @@ depends=(pacman-contrib
          cmake
          go
          # System
+         sysstat
          hyperfine
          neofetch
          onefetch
