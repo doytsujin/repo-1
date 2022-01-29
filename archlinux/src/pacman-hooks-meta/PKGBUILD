@@ -1,9 +1,9 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
-pkgname=pacman-hooks
+pkgname=pacman-hooks-meta
 pkgver=2022.01.29
 pkgrel=1
-pkgdesc='Pacman hooks'
-arch=('x86_64' 'aarch64')
+pkgdesc='Meta package tp install some pacman hooks'
+arch=('any')
 url="https://github.com/sainnhe/repo"
 license=('unknown')
 depends=('kernel-modules-hook'
@@ -11,16 +11,8 @@ depends=('kernel-modules-hook'
          'check-broken-packages-pacman-hook-git'
          'pacdiff-pacman-hook-git'
          'sync-pacman-hook-git'
-         'grub')
-source=('grub.hook')
-md5sums=('1bc774c9010d75500bd4c2365b8b25e2')
+         'grub-hook')
 
 pkgver() {
     date --utc +"%Y.%m.%d"
-}
-
-package() {
-    cd "${srcdir}"
-    install -m755 -d "${pkgdir}/usr/share/libalpm/hooks"
-    install -m644 grub.hook "${pkgdir}/usr/share/libalpm/hooks/grub.hook"
 }

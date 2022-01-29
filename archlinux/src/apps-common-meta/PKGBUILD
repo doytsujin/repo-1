@@ -62,7 +62,6 @@ depends=(pacman-contrib
          xclip
          nnn
          palette-git
-         pacman-hooks
          pacmerge)
 
 pkgver() {
