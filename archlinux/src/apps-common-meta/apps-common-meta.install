@@ -1,7 +1,11 @@
 post_install() {
     systemctl enable --now bluetooth.service
+    systemctl enable --now clamav-daemon.service
+    systemctl enable --now clamav-freshclam.service
 }
 
 pre_remove() {
-    systemctl disable bluetooth.service
+    systemctl disable --now bluetooth.service
+    systemctl disable --now clamav-daemon.service
+    systemctl disable --now clamav-freshclam.service
 }

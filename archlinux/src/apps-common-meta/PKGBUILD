@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
-pkgver=2022.01.29
+pkgver=2022.01.30
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -50,6 +50,7 @@ depends=(pacman-contrib
          cmake
          go
          # System
+         clamav
          sysstat
          hyperfine
          neofetch
