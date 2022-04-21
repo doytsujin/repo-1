@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=fonts-meta
 pkgdesc='Meta package to install some fonts'
-pkgver=2022.01.22
+pkgver=2022.04.21
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -16,35 +16,7 @@ depends=(adobe-source-sans-fonts
          noto-fonts
          noto-fonts-emoji
          ttf-ms-win10
-         ttf-ms-win10-zh_cn
-         nerd-fonts-fira-code
-         nerd-fonts-code-new-roman
-         nerd-fonts-agave
-         ttf-monaco
-         otf-operator-mono
-         ttf-cartograph-mono
-         ttf-recursive-code-icursive-cg
-         ttf-cascadia-code-icursive-cg
-         ttf-cascadia-code-icursive-dk
-         ttf-dank-mono
-         ttf-ellograph-mono
-         ttf-fantasque-icursive-dk
-         ttf-fantasque-icursive-op
-         ttf-fira-code-icursive-op
-         ttf-fira-code-icursive-s12
-         ttf-hack-icursive-op
-         ttf-hack-icursive-s12
-         ttf-inconsolatago-icursive-pb
-         ttf-inconsolatalgc-icursive-op
-         ttf-inconsolatalgc-icursive-s12
-         ttf-lilex-icursive-s12
-         ttf-lilex-icursive-op
-         ttf-lilex-icursive-dk
-         ttf-meslo-icursive-op
-         ttf-meslo-icursive-s12
-         ttf-roboto-mono-icursive-pt
-         ttf-source-code-pro-icursive-op
-         ttf-source-code-pro-icursive-s12)
+         ttf-ms-win10-zh_cn)
 
 pkgver() {
     date --utc +"%Y.%m.%d"
