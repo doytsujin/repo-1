@@ -25,6 +25,7 @@ depends=(pacman-contrib
          arpfox
          tcpdump
          bind
+         dhclient
          # Shell Utils
          vi
          awk
