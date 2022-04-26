@@ -17,12 +17,12 @@ depends=(pacman-contrib
          mosh
          tcping
          clash
+         socat
+         arpfox
          net-tools
          inetutils
          traceroute
-         socat
          nmap
-         arpfox
          tcpdump
          bind
          kea
