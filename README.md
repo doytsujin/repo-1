@@ -3,8 +3,11 @@
 </h1>
 
 <p align="center">
+  <a href="https://repo.sainnhe.dev/macports">
+    <img src="https://gitlab.com/sainnhe/img/-/raw/master/logo-macports.png" alt="MacPorts" width="30%" height="30%">
+  </a>
   <a href="https://repo.sainnhe.dev/archlinux">
-    <img src="https://gitlab.com/sainnhe/img/-/raw/master/logo-archlinux.png" alt="ArchLinux" width="50%" height="50%">
+    <img src="https://gitlab.com/sainnhe/img/-/raw/master/logo-archlinux.png" alt="ArchLinux" width="30%" height="30%">
   </a>
   <br><br>
 </p>
