@@ -1,3 +1,10 @@
+<p align="center">
+  <a href="#installation">
+    <img src="https://gitlab.com/sainnhe/img/-/raw/master/logo-macports.png" alt="MacPorts" width="50%" height="50%">
+  </a>
+  <br><br>
+</p>
+
 ## Installation
 
 Assume you want to install this repository to `/Users/username/ports`:
