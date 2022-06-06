@@ -63,7 +63,6 @@ pacman -Sy
 | `pacman-hooks-meta`                | x86_64          | Meta package tp install some pacman hooks                            |
 | `pacmerge`                         | aarch64, x86_64 | Merge .pacnew files                                                  |
 | `palette-git`                      | aarch64, x86_64 | Print color palette                                                  |
-| `posy-cursors`                     | x86_64          | Port of Posy's improved cursors                                      |
 | `pylance-language-server`          | x86_64          | Python language server based on pylance vscode extension             |
 | `ttf-ms-win10`                     | x86_64          | Microsoft Windows 10 TrueType fonts                                  |
 | `ttf-ms-win10-japanese`            | x86_64          | Microsoft Windows 10 Japanese TrueType fonts                         |
