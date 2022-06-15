@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2022.06.10
+pkgver=2022.06.15
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -27,7 +27,6 @@ depends=(apps-common-meta
          bleachbit
          netease-cloud-music
          apple-music-electron
-         onedriver
          caj2pdf-qt
          qemu-desktop
          # Zathura
