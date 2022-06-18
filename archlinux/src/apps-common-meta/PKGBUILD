@@ -59,7 +59,6 @@ depends=(pacman-contrib
          helix
          # System
          podman
-         crun
          clamav
          sysstat
          hyperfine
