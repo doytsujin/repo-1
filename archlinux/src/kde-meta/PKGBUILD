@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=kde-meta
 pkgdesc='Meta package to install some components for KDE Plasma'
-pkgver=2022.01.27
+pkgver=2022.06.21
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -49,7 +49,9 @@ depends=(plasma-meta
          lightly-qt
          kwin-scripts-forceblur
          gestures
-         xdotool)
+         xdotool
+         calligra
+         calligra-plan)
 
 pkgver() {
     date --utc +"%Y.%m.%d"
