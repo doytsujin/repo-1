@@ -17,6 +17,7 @@ Assume you want to install this repository to `/Users/username/ports`:
 
 | Port                         | Description                                                                                             |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `bingrep`                    | like ~~grep~~ UBER, but for binaries                                                                    |
 | `caj2pdf-qt`                 | CAJ 转 PDF 转换器（GUI 版本）                                                                           |
 | `docker-machine-driver-qemu` | Docker machine driver for pure qemu/kvm - no libvirt                                                    |
 | `neovide`                    | No Nonsense Neovim Client in Rust                                                                       |
