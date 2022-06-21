@@ -22,4 +22,5 @@ Assume you want to install this repository to `/Users/username/ports`:
 | `docker-machine-driver-qemu` | Docker machine driver for pure qemu/kvm - no libvirt                                                    |
 | `neovide`                    | No Nonsense Neovim Client in Rust                                                                       |
 | `podman-tui`                 | Podman Terminal UI                                                                                      |
+| `texlab`                     | An implementation of the Language Server Protocol for LaTeX                                             |
 | `vscode`                     | Open source build of vscode, patched with vscode marketplace, settings sync and extension api proposals |
