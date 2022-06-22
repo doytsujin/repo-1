@@ -19,7 +19,7 @@ Assume you want to install this repository to `/Users/username/ports`:
 | ---------------------------- | ------------------------------------------------------------------------------------------------------- |
 | `caj2pdf-qt`                 | CAJ 转 PDF 转换器（GUI 版本）                                                                           |
 | `docker-machine-driver-qemu` | Docker machine driver for pure qemu/kvm - no libvirt                                                    |
-| `man-pages-zh`               | Chinese Manual Pages                                                                                    |
+| `manpages-zh`                | Chinese Manual Pages                                                                                    |
 | `neovide`                    | No Nonsense Neovim Client in Rust                                                                       |
 | `podman-tui`                 | Podman Terminal UI                                                                                      |
 | `vscode`                     | Open source build of vscode, patched with vscode marketplace, settings sync and extension api proposals |
