@@ -59,6 +59,7 @@ depends=(pacman-contrib
          svn
          cmake
          go
+         pnpm
          helix
          # System
          podman
