@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
-pkgver=2022.06.18
+pkgver=2022.07.03
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -27,6 +27,9 @@ depends=(pacman-contrib
          tcpdump
          termshark
          bind
+         rsync
+         nftables
+         nftables-geoip-db
          # Shell Utils
          vi
          awk
