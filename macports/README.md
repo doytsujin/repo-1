@@ -9,9 +9,9 @@
 
 Assume you want to install this repository to `/Users/username/ports`:
 
-1. Clone this repository: `$ git clone --depth=1 https://git.sainnhe.dev/sainnhe/ports.git /Users/username/ports`
-2. Add this line to the end of `/opt/local/etc/macports/sources.conf`: `file:///Users/username/ports`
-3. Change the permission: `chmod -R a+rX /Users/username/ports`
+1. Clone this repository: `$ sudo git clone --depth=1 https://git.sainnhe.dev/sainnhe/ports.git /opt/ports`
+2. Add this line to the end of `/opt/local/etc/macports/sources.conf`: `file:///opt/ports`
+3. Change the permission: `$ sudo chmod -R a+rX /opt/ports`
 
 ## Available Ports
 
