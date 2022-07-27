@@ -15,10 +15,11 @@ Assume you want to install this repository to `/Users/username/ports`:
 
 ## Available Ports
 
-| Port                         | Description                                                                                             |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------- |
-| `caj2pdf-qt`                 | CAJ 转 PDF 转换器（GUI 版本）                                                                           |
-| `manpages-zh`                | Chinese Manual Pages                                                                                    |
-| `neovide`                    | No Nonsense Neovim Client in Rust                                                                       |
-| `podman-tui`                 | Podman Terminal UI                                                                                      |
-| `vscode`                     | Open source build of vscode, patched with vscode marketplace, settings sync and extension api proposals |
+| Port          | Description                                                                                             |
+| ------------- | ------------------------------------------------------------------------------------------------------- |
+| `caj2pdf-qt`  | CAJ 转 PDF 转换器（GUI 版本）                                                                           |
+| `manpages-zh` | Chinese Manual Pages                                                                                    |
+| `neovide`     | No Nonsense Neovim Client in Rust                                                                       |
+| `podman-tui`  | Podman Terminal UI                                                                                      |
+| `rofi`        | A window switcher, application launcher and dmenu replacement                                           |
+| `vscode`      | Open source build of vscode, patched with vscode marketplace, settings sync and extension api proposals |
