@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
-pkgver=2022.07.18
+pkgver=2022.07.29
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -30,7 +30,6 @@ depends=(pacman-contrib
          rsync
          nftables
          nftables-geoip-db
-         nginx
          # Shell Utils
          vi
          awk
@@ -60,12 +59,11 @@ depends=(pacman-contrib
          svn
          cmake
          go
-         pnpm
          helix
+         npm
+         yarn
          # System
          podman
-         podman-compose
-         aardvark-dns
          clamav
          sysstat
          hyperfine
