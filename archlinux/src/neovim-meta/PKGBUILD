@@ -20,6 +20,7 @@ depends=(neovim
          julia
          jre-openjdk
          ripgrep
+         fzf
          java-environment-common
          texlive-bibtexextra
          texlive-core
