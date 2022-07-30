@@ -21,5 +21,4 @@ Assume you want to install this repository to `/Users/username/ports`:
 | `manpages-zh` | Chinese Manual Pages                                                                                    |
 | `neovide`     | No Nonsense Neovim Client in Rust                                                                       |
 | `podman-tui`  | Podman Terminal UI                                                                                      |
-| `rofi`        | A window switcher, application launcher and dmenu replacement                                           |
 | `vscode`      | Open source build of vscode, patched with vscode marketplace, settings sync and extension api proposals |
