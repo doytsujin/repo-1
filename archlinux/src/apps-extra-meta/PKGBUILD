@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <sainnhe@gmail.com>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2022.06.23
+pkgver=2022.08.06
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -16,7 +16,6 @@ depends=(apps-common-meta
          firefox-developer-edition
          ungoogled-chromium
          telegram-desktop
-         element-desktop
          v2ray
          across
          clash-for-windows-bin
