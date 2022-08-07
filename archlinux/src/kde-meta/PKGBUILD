@@ -1,4 +1,4 @@
-# Maintainer: Sainnhe Park <sainnhe@gmail.com>
+# Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=kde-meta
 pkgdesc='Meta package to install some components for KDE Plasma'
 pkgver=2022.07.02

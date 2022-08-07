@@ -16,7 +16,7 @@
   <p align="center">
     <a href="https://github.com/sainnhe/repo">𝐒𝐨𝐮𝐫𝐜𝐞</a> |
     <a href="https://github.com/sainnhe/repo/issues">𝐅𝐞𝐞𝐝𝐛𝐚𝐜𝐤</a> |
-    <a href="mailto:sainnhe@gmail.com">𝐂𝐨𝐧𝐭𝐚𝐜𝐭</a>
+    <a href="mailto:i@sainnhe.dev">𝐂𝐨𝐧𝐭𝐚𝐜𝐭</a>
     <br><br>
   </p>
 </h3>

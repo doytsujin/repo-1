@@ -1,4 +1,4 @@
-# Maintainer: Sainnhe Park <sainnhe@gmail.com>
+# Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=julia-bin
 pkgver=1.6.1
 pkgrel=1

@@ -1,4 +1,4 @@
-# Maintainer: Sainnhe Park <sainnhe@gmail.com>
+# Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname="palette-git"
 pkgdesc='Print color palette'
 url='https://github.com/stark/Color-Scripts'

@@ -1,4 +1,4 @@
-# Maintainer: Sainnhe Park <sainnhe@gmail.com>
+# Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
 pkgver=2022.08.06

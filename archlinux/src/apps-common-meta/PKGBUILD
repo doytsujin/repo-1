@@ -1,4 +1,4 @@
-# Maintainer: Sainnhe Park <sainnhe@gmail.com>
+# Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
 pkgver=2022.07.29
