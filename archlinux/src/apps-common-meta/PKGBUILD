@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
-pkgver=2022.07.29
+pkgver=2022.08.14
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -72,6 +72,7 @@ depends=(pacman-contrib
          sysbench
          geekbench
          bottom
+         kexec-tools
          # Others
          figlet
          cmatrix
