@@ -1,14 +1,14 @@
 # Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=neovim-meta
 pkgdesc='Meta package to install some components for neovim'
-pkgver=2022.07.29
+pkgver=2022.08.17
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
 provides=("${pkgname}")
 conflicts=("${pkgname}")
 depends=(neovim
-         nodejs
+         nodejs-lts-gallium
          pnpm
          rustup
          words
