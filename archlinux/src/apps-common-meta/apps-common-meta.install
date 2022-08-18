@@ -2,6 +2,11 @@ post_install() {
     systemctl enable --now bluetooth.service
     systemctl enable --now clamav-daemon.service
     systemctl enable --now clamav-freshclam.service
+    echo "To enable rootless podman, execute the following commands:"
+    echo "# touch /etc/subuid /etc/subgid"
+    echo "# chmod a+r /etc/subuid /etc/subgid"
+    echo "# usermod --add-subuids 100000-165535 --add-subgids 100000-165535 sainnhe"
+    echo '$ podman system migrate'
 }
 
 pre_remove() {

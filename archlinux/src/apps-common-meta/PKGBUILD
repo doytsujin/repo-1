@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
-pkgver=2022.08.16
+pkgver=2022.08.18
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -65,6 +65,8 @@ depends=(pacman-contrib
          yarn
          # System
          podman
+         podman-compose
+         fuse-overlayfs
          clamav
          sysstat
          hyperfine
