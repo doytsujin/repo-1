@@ -16,7 +16,7 @@ depends=(pacman-contrib
          weechat
          mosh
          tcping
-         clash
+         clash-premium-bin
          socat
          arpfox
          inetutils
