@@ -11,7 +11,7 @@ install="${pkgname}.install"
 source=("${pkgname}.hook"
         'patch.sh')
 md5sums=('8d9baaa7d1e25b30f7e4544e92405980'
-         '3b3f28d0f3442e2222c5a599dbce484a')
+         'ab70b818aa916ec0dd074e8f5618906c')
 depends=(apps-common-meta
          firefox-developer-edition
          ungoogled-chromium
