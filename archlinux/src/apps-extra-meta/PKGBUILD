@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2022.08.21
+pkgver=2022.09.18
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -11,7 +11,7 @@ install="${pkgname}.install"
 source=("${pkgname}.hook"
         'patch.sh')
 md5sums=('8d9baaa7d1e25b30f7e4544e92405980'
-         'ab70b818aa916ec0dd074e8f5618906c')
+         'b14a30b5461c1f63a634581994e27019')
 depends=(apps-common-meta
          firefox-developer-edition
          ungoogled-chromium
