@@ -27,6 +27,7 @@ depends=(apps-common-meta
          caj2pdf-qt
          qemu-desktop
          marktext-git
+         gvim
          # Zathura
          zathura
          zathura-djvu
