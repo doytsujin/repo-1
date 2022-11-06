@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2022.10.10
+pkgver=2022.11.06
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -51,15 +51,16 @@ depends=(apps-common-meta
          qt6-5compat
          qtcreator
          # Fcitx
-         fcitx
-         fcitx-configtool
-         fcitx-libpinyin
-         fcitx-cloudpinyin
-         fcitx-table-extra
-         fcitx-table-other
-         kcm-fcitx
-         fcitx-skins
-         fcitx-skin-material
+         fcitx5
+         fcitx5-chinese-addons
+         fcitx5-configtool
+         fcitx5-material-color
+         fcitx5-nord
+         fcitx5-pinyin-zhwiki
+         fcitx5-qt
+         fcitx5-gtk
+         fcitx5-table-extra
+         fcitx5-table-other
          # Libre Office
          libreoffice-still
          libreoffice-still-zh-cn
