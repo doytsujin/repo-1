@@ -1,11 +1,12 @@
 # Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=pacman-hooks-meta
-pkgver=2022.01.29
+pkgver=2022.11.09
 pkgrel=1
 pkgdesc='Meta package tp install some pacman hooks'
 arch=('any')
 url="https://github.com/sainnhe/repo"
 license=('unknown')
+install="${pkgname}.install"
 depends=('kernel-modules-hook'
          'systemd-boot-pacman-hook'
          'check-broken-packages-pacman-hook-git'
