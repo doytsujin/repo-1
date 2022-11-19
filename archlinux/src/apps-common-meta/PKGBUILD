@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=apps-common-meta
 pkgdesc='Meta package to install some common apps'
-pkgver=2022.11.16
+pkgver=2022.11.19
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -13,6 +13,7 @@ depends=(pacman-contrib
          w3m
          wget
          aria2
+         axel
          weechat
          mosh
          tcping
@@ -53,6 +54,7 @@ depends=(pacman-contrib
          fd
          tealdeer
          viu
+         pigz
          # Development
          python
          python-pip
@@ -63,12 +65,6 @@ depends=(pacman-contrib
          helix
          npm
          yarn
-         # Tensorflow
-         python-tensorflow
-         python-tensorflow-estimator
-         python-tensorflow-serving-api
-         python-tensorflow-datasets
-         python-tensorflow-metadata
          # System
          podman
          podman-compose
@@ -81,6 +77,7 @@ depends=(pacman-contrib
          geekbench
          bottom
          kexec-tools
+         nvtop
          # Others
          figlet
          cmatrix
