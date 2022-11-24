@@ -64,6 +64,8 @@ depends=(apps-common-meta
          # Libre Office
          libreoffice-still
          libreoffice-still-zh-cn
+         libreoffice-extension-texmaths
+         libreoffice-extension-writer2latex
          # Deepin Wine
          deepin-wine-tim
          deepin-wine-wechat
