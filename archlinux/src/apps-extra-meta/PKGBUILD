@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2022.11.06
+pkgver=2022.11.24
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -64,15 +64,6 @@ depends=(apps-common-meta
          # Libre Office
          libreoffice-still
          libreoffice-still-zh-cn
-         # WPS Office
-         wps-office
-         libjpeg-turbo
-         pango
-         ttf-ms-fonts
-         ttf-wps-fonts
-         wps-office-fonts
-         wps-office-mime-cn
-         wps-office-mui-zh-cn
          # Deepin Wine
          deepin-wine-tim
          deepin-wine-wechat
