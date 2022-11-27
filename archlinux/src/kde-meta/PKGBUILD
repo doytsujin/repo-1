@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=kde-meta
 pkgdesc='Meta package to install some components for KDE Plasma'
-pkgver=2022.07.02
+pkgver=2022.11.27
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -36,17 +36,6 @@ depends=(plasma-meta
          bluez-utils
          pulseaudio-bluetooth
          pulseaudio-alsa
-         # Grub themes
-         grub2-theme-preview
-         grub-theme-poly-dark-git
-         grub-theme-poly-light-git
-         grub2-theme-breeze-git
-         sekiro-grub-theme-git
-         grub-theme-slaze-color-4k-git
-         grub-theme-stylish-color-4k-git
-         grub-theme-tela-color-4k-git
-         grub-theme-vimix-color-4k-git
-         grub-theme-whitesur-color-4k-git
          # More
          kvantum-qt5
          qtcurve-kde

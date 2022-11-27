@@ -1,0 +1,24 @@
+# Maintainer: Sainnhe Park <i@sainnhe.dev>
+pkgname=grub-meta
+pkgdesc='Meta package to install some components for Grub'
+pkgver=2022.11.27
+pkgrel=1
+arch=(any)
+url='https://github.com/sainnhe/repo'
+provides=("${pkgname}")
+conflicts=("${pkgname}")
+depends=(grub
+         grub2-theme-preview
+         grub-theme-poly-dark-git
+         grub-theme-poly-light-git
+         grub2-theme-breeze-git
+         sekiro-grub-theme-git
+         grub-theme-slaze-color-4k-git
+         grub-theme-stylish-color-4k-git
+         grub-theme-tela-color-4k-git
+         grub-theme-vimix-color-4k-git
+         grub-theme-whitesur-color-4k-git)
+
+pkgver() {
+    date --utc +"%Y.%m.%d"
+}
