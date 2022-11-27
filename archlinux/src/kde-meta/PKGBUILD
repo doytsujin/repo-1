@@ -22,7 +22,6 @@ depends=(plasma-meta
          firewalld
          geoip
          gpsd
-         kdewebkit
          kplotting
          kshutdown
          libwlocate
