@@ -1,7 +1,7 @@
 # Maintainer: Sainnhe Park <i@sainnhe.dev>
 pkgname=apps-extra-meta
 pkgdesc='Meta package to install some extra apps'
-pkgver=2022.11.24
+pkgver=2022.11.27
 pkgrel=1
 arch=(any)
 url='https://github.com/sainnhe/repo'
@@ -70,6 +70,7 @@ depends=(apps-common-meta
          deepin-wine-tim
          deepin-wine-wechat
          deepin-wine5
+         deepin-wine5-i386
          xsettingsd)
 
 pkgver() {
